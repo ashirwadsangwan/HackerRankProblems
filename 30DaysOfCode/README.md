@@ -1,6 +1,43 @@
-# [30 Days of Code]()
+# [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bsubdomains%5D%5B%5D=30-days-of-code&badge_type=30-days-of-code)
 
-## Day 4
+## Day 1
+### Data Types
+```python
+i = 4
+d = 4.0
+s = 'HackerRank '
+# Declare second integer, double, and String variables.
+
+int2 = int(input())
+double = float(input())
+string = str(input())
+
+# Read and save an integer, double, and String to your variables.
+
+# Print the sum of both integer variables on a new line.
+
+print(i + int2)
+
+# Print the sum of the double variables on a new line.
+
+print(d + double)
+
+# Concatenate and print the String variables on a new line
+
+print(s + string)
+```
+
+
+
+
+
+
+
+
+
+
+## Day 4 
+### Class vs Instance
 
 Write a Person class with an instance variable, `age`, and a constructor that takes an integer, `initialAge`, as a parameter. 
 The constructor must assign `initialAge` to `age` after confirming the argument passed as `initialAge` is not negative; if a negative argument is
