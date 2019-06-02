@@ -5,7 +5,7 @@
 
 
 
-### [Problem 4 : Staircase](https://www.hackerrank.com/challenges/staircase/problem)
+#### [Problem 4 : Staircase](https://www.hackerrank.com/challenges/staircase/problem)
  ```   
        #
       ##
@@ -27,7 +27,7 @@ def staircase(n):
 
 
  
-## [Problem 6 - Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
+#### [Problem 6 - Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
 
 You are in charge of the cake for your niece's birthday and have decided the cake will have one candle for each year of her total age. When she blows out the candles, she’ll only be able to blow out the tallest ones. Your task is to find out how many candles she can successfully blow out.
 
@@ -47,7 +47,7 @@ def birthdayCakeCandles(ar):
 
 
 
-### [Problem 9 : Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem)
+#### [Problem 9 : Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem)
 
 ![alt text](https://s3.amazonaws.com/hr-challenge-images/25220/1474218925-f2a791d52c-Appleandorange2.png)
 ```python
