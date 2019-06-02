@@ -172,3 +172,31 @@ def gradingStudents(grades):
 
     return rounded_grades
 ```
+
+## [Problem 9 : Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem)
+
+![alt text](https://s3.amazonaws.com/hr-challenge-images/25220/1474218925-f2a791d52c-Appleandorange2.png)
+```python
+def countApplesAndOranges(s, t, a, b, apples, oranges):
+
+    app = 0
+    org = 0
+
+    app_list = []
+    org_list = []
+
+    for i in apples:
+        app_list.append(a+i)
+    for j in oranges:
+        org_list.append(b+j)
+
+    for k in app_list:
+        if k>=s and k<=t:
+            app+=1
+    for m in org_list:
+        if m>=s and m<=t:
+            org+=1
+
+    print(app)
+    print(org) 
+```    
