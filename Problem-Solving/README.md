@@ -1,11 +1,11 @@
 
 
 
-## [Problem Solving](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
+# [Problem Solving](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
 
 
 
-## [Problem 4 : Staircase](https://www.hackerrank.com/challenges/staircase/problem)
+### [Problem 4 : Staircase](https://www.hackerrank.com/challenges/staircase/problem)
  ```   
        #
       ##
@@ -47,7 +47,7 @@ def birthdayCakeCandles(ar):
 
 
 
-## [Problem 9 : Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem)
+### [Problem 9 : Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem)
 
 ![alt text](https://s3.amazonaws.com/hr-challenge-images/25220/1474218925-f2a791d52c-Appleandorange2.png)
 ```python
