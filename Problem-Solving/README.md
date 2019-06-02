@@ -150,3 +150,25 @@ def timeConversion(s):
         # add 12 to hours and remove PM 
         return str(int(s[:2]) + 12) + s[2:8] 
 ```
+## [Problem 8 : Grading System](https://www.hackerrank.com/challenges/grading/problem)
+
+```python
+def gradingStudents(grades):
+    
+    rounded_grades = []
+    for i in grades:
+
+        if i<38:
+            rounded_grades.append(i)
+
+        elif i>=38 and ((i+1)%5==0):
+            rounded_grades.append(i+1)
+
+        elif i>=38 and ((i+2)%5==0):
+            rounded_grades.append(i+2)
+        
+        else:
+            rounded_grades.append(i)
+
+    return rounded_grades
+```
