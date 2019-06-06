@@ -74,3 +74,22 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     print(app)
     print(org) 
 ```    
+
+#### [Problem 10 : Kangaroo](https://www.hackerrank.com/challenges/kangaroo/problem)
+![alt text](https://s3.amazonaws.com/hr-assets/0/1516005283-e74e76ff0c-kangaroo.png)
+
+
+```python
+def kangaroo(x1, v1, x2, v2):
+
+    if v1 == v2 and x1 == x2:
+        return 'YES'
+    elif v1 == v2:
+        return 'NO'
+     
+    x = (x2-x1) / (v1-v2)    
+    if (x == round(x) and x > 0):
+        return 'YES'
+    else:
+        return 'NO'
+```
