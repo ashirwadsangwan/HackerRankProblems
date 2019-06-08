@@ -7,4 +7,9 @@ Say there are n people. The first person shakes his hand with the other `n-1` pe
 The second person then shakes his hand with the other `n-2` people.
 And so on until the `(n-1)th` person shakes his hand with the nth person.
 
-So the number of handshakes is `(n-1) + (n-2)... + 3 + 2 + 1` which equals $$(n-1)(n)/2$$.
+So the number of handshakes is `(n-1) + (n-2)... + 3 + 2 + 1` which equals (n-1)*(n)/2.
+
+```python
+def handshake(n):
+    return int(n*(n-1)/2)
+```
