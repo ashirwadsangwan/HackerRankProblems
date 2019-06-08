@@ -6,8 +6,8 @@ if __name__ == '__main__':
                 score = float(input())
                 marksheet+=[[name,score]]
                 scorelist+=[score]
-        b=sorted(list(set(scorelist)))[1] 
+        second_lowest = sorted(list(set(scorelist)))[1]
         
-        for a,c in sorted(marksheet):
-             if c==b:
-                    print(a)
+        for student, marks in sorted(marksheet):
+             if marks == second_lowest:
+                    print(student)
