@@ -1,1 +1,1 @@
-## [30 Days of Code](https://github.com/ashirwadsangwan/HackerRankProblems/blob/gh-pages/30DaysOfCode/README.md)
+## [30 Days of Code](https://ashirwadsangwan.github.io/HackerRankProblems/30DaysOfCode/)
