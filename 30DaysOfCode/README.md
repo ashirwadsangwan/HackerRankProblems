@@ -8,6 +8,7 @@ The variables `i`, `d`, and `s` are already declared and initialized for you. Yo
 1. Declare `3` variables: one of type int, one of type double, and one of type String.
 2. Read `3` lines of input from stdin (according to the sequence given in the Input Format section below) and initialize your    `3` variables.
 3. Use the  operator to perform the following operations: 
+
     ```
     1. Print the sum of `i` plus your int variable on a new line.
     2. Print the sum of `d` plus your double variable to a scale of one decimal place on a new line.
@@ -40,14 +41,6 @@ print(s + string)
 ```
 
 
-
-
-
-
-
-
-
-
 ## Day 4 
 ### Class vs Instance
 
@@ -58,12 +51,15 @@ the following instance methods:
 
 1. `yearPasses()` should increase the `age` instance variable by 1.
 2. `amIOld()` should perform the following conditional actions:
+
     ```
     If age < 13, print You are young..
     If age >= 13 and age < 18 , print You are a teenager..
     Otherwise, print You are old..
     ```
+    
 ```python    
+
 class Person:
 
     def __init__(self,initialAge):
@@ -85,14 +81,18 @@ class Person:
         # Increment the age of the person in here
         self.initialAge+=1
         
+        
 ```        
+
 
 ## Day 7
 ### Arrays
 
 Given an array, `A`, of `N` integers, print `A`'s elements in reverse order as a single line of space-separated numbers.
 
+
 ```python
+
 if __name__ == '__main__':
     n = int(input())
 
@@ -106,4 +106,5 @@ if __name__ == '__main__':
    
     for i in reverse_array:
         print(i, end=' ')
+        
 ```
