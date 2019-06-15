@@ -1,3 +1,1 @@
-<p align="center">
-  <img width="750" height="250" src='https://s3.amazonaws.com/sr-marketplace-prod/wp-content/uploads/2015/08/hackerrank.jpg'>
-</p>
+## [30 Days of Code](https://github.com/ashirwadsangwan/HackerRankProblems/blob/gh-pages/30DaysOfCode/README.md)
