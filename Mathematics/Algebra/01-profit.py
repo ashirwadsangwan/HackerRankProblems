@@ -1,3 +1,5 @@
+import os
+
 def profit(b, s, c):
     return abs(c - b - s)
 
